@@ -1,12 +1,3 @@
-/*!------------------------------------------------------------------
-[MAIN STYLESHEET]
-
-PROJECT:	Project Name
-VERSION:	Versoin Number
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[TABLE OF CONTENTS]
--------------------------------------------------------------------*/
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700");
 @font-face {
@@ -43,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .h1 {
-  font-size: 80px;
+  font-size: 50px;
 }
 
 @media (max-width: 991px) {
@@ -427,18 +418,18 @@ textarea.form-control {
 
 .navigation.nav-bg {
   background-color: #41228e;
-  padding: 15px 100px;
+  padding: 10px 80px;
 }
 
 @media (max-width: 991px) {
   .navigation.nav-bg {
-    padding: 15px 20px;
+    padding: 10px 15px;
   }
 }
 
 @media (max-width: 991px) {
   .navigation {
-    padding: 20px;
+    padding: 10px;
     background: #41228e;
   }
 }

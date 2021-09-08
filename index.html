@@ -27,7 +27,7 @@
 
 <header class="navigation fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo.png" alt="Myself"></a>
+    <a class="navbar-brand font-tertiary h3" href="index.html">Portfolio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -442,7 +442,8 @@
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
           <h4 class="mb-80">Contact Form</h4>
-          <form action="#" class="row">
+          <form method='POST' netlify>
+            <input type='hidden' name='form-name' value='form 1' />
             <div class="col-md-6">
               <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
             </div>
@@ -476,7 +477,6 @@
         <div class="col-md-4">
           <h5 class="text-light">Phone</h5>
           <p class="text-white paragraph-lg font-secondary">+92 (324)-4970129</p>
-          <p class="text-white paragraph-lg font-secondary">+92 (311)-1470320</p>
         </div>
         <div class="col-md-4">
           <h5 class="text-light">Location</h5>
